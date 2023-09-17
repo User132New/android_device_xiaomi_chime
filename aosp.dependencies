@@ -1,26 +1,32 @@
 [
   {
-    "repository"   : "hardware_xiaomi",
+    "repository"   : "android_hardware_xiaomi",
     "target_path"  : "hardware/xiaomi",
-    "branch"       : "thirteen",
-    "remote"       : "pixel"
+    "remote"       : "pixelbuilds-staging"
   },
   { 
-    "repository"   : "vendor_xiaomi_chime",
+    "repository"   : "android_vendor_xiaomi_chime",
     "target_path"  : "vendor/xiaomi/chime",
-    "branch"       : "thirteen",
-    "remote"       : "pixel-devices-blobs"
+    "remote"       : "pixelbuilds-gitlab"
   },
   {
-    "repository"   : "vendor_xiaomi_chime-perf",
+    "repository"   : "android_vendor_xiaomi_chime-perf",
     "target_path"  : "vendor/xiaomi/chime-perf",
-    "branch"       : "thirteen",
-    "remote"       : "pixel-devices-blobs"
+    "remote"       : "pixelbuilds-gitlab"
   },
   {
-    "repository"   : "kernel_xiaomi_chime",
+    "repository"   : "android_kernel_xiaomi_chime",
     "target_path"  : "kernel/xiaomi/chime",
-    "remote"       : "pixel-devices",
-    "branch"       : "thirteen"
+    "remote"       : "pixelbuilds-devices",
+  },
+  {
+    "repository"   : "android_vendor_xiaomi_lime",
+    "target_path"  : "vendor/xiaomi/lime",
+    "remote"       : "pixelbuilds-gitlab"
+  },
+  {
+    "repository"   : "android_vendor_xiaomi_citrus",
+    "target_path"  : "vendor/xiaomi/citrus",
+    "remote"       : "pixelbuilds-gitlab"
   }
 ]
