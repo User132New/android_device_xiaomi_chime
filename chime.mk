@@ -20,6 +20,9 @@ $(call inherit-product-if-exists, vendor/xiaomi/chime-perf/perf.mk)
 # Inherit some common Halcyon stuff.
 $(call inherit-product, vendor/awaken/config/common.mk)
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Inherit several Android Go Configurations(Beneficial for everyone, even on non-Go devices)
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
 PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-image-profile.txt
