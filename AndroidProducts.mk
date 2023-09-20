@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/halcyon_citrus.mk \
-    $(LOCAL_DIR)/halcyon_lime.mk
+    $(LOCAL_DIR)/awaken_citrus.mk \
+    $(LOCAL_DIR)/awaken_lime.mk
 
 COMMON_LUNCH_CHOICES := \
-    halcyon_citrus-user \
-    halcyon_citrus-userdebug \
-    halcyon_citrus-eng \
-    halcyon_lime-user \
-    halcyon_lime-userdebug \
-    halcyon_lime-eng
+    awaken_citrus-user \
+    awaken_citrus-userdebug \
+    awaken_citrus-eng \
+    awaken_lime-user \
+    awaken_lime-userdebug \
+    awaken_lime-eng
