@@ -19,5 +19,8 @@ PRODUCT_PACKAGES += \
     NgaResources \
     nga
 
+# Included Gapps by default.
+WITH_GMS := true
+
 # Recovery
 TARGET_USES_AOSP_RECOVERY := true
